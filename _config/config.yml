@@ -1,0 +1,18 @@
+---
+Name: 'seoextensions'
+---
+
+# Include required CSS and JS
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - 'restruct/silverstripe-liveseo:client/dist/css/seo.css'
+  extra_requirements_javascript:
+    - 'restruct/silverstripe-liveseo:client/dist/js/seo.js'
+
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - 'Restruct\SilverStripe\LiveSeo\Extensions\SeoSiteTreeExtension'
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - 'Restruct\SilverStripe\LiveSeo\Extensions\SeoSiteConfigExtension'

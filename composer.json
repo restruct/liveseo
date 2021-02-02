@@ -1,0 +1,44 @@
+{
+    "name": "restruct/silverstripe-liveseo",
+    "description": "SEO optimizations module for Silverstripe",
+    "type": "silverstripe-module",
+    "homepage": "http://github.com/restruct/silverstripe-liveseo",
+    "keywords": [
+        "silverstripe",
+        "seo",
+        "meta",
+        "metatitle"
+    ],
+    "authors": [
+        {
+            "name": "Bart van Irsel (original silverstripe-seo)",
+            "email": "bart@30.nl"
+        },
+        {
+            "name": "Michael van Schaik (this 'live' fork)",
+            "email": "mic@restruct.nl"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "http://github.com/restruct/silverstripe-liveseo/issues"
+    },
+    "require": {
+        "silverstripe/framework": "~4.4",
+        "silverstripe/cms": "~4.4",
+        "silverstripe/redirectedurls": "dev-master"
+    },
+    "extra": {
+        "installer-name": "liveseo",
+        "replaces": "seo",
+        "expose": [
+            "client/dist/js",
+            "client/dist/css",
+            "client/images"
+        ],
+        "screenshots": [
+            "client/images/screen2.png",
+            "client/images/screen3.png"
+        ]
+    }
+}
