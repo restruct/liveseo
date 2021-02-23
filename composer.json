@@ -1,7 +1,7 @@
 {
     "name": "restruct/silverstripe-liveseo",
     "description": "SEO optimizations module for Silverstripe",
-    "type": "silverstripe-module",
+    "type": "silverstripe-vendormodule",
     "homepage": "http://github.com/restruct/silverstripe-liveseo",
     "keywords": [
         "silverstripe",
