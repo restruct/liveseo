@@ -14,10 +14,7 @@
             "name": "Bart van Irsel (original silverstripe-seo)",
             "email": "bart@30.nl"
         },
-        {
-            "name": "Michael van Schaik (this 'live' fork)",
-            "email": "mic@restruct.nl"
-        }
+        { "name": "Restruct", "email": "dev@restruct.nl", "homepage": "https://restruct.nl" }
     ],
     "license": "BSD-3-Clause",
     "support": {
